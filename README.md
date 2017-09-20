@@ -31,7 +31,7 @@ npm install voogpagination
 ## Settings
 Option | Type | Default | Description
 ------ | ---- | ------- | -----------
-ajaxErrorHandler | function | null | Called on ajax request errors. See the [source](/src/voogPagination.js) and [examples](#ajax-error-handling) for reference.
+ajaxErrorHandler | function | null | Called on ajax request errors. See the [source](/src/voogpagination.js) and [examples](#ajax-error-handling) for reference.
 cachePages | boolean | true | Whether to cache the fetched items.
 dateFormatter | function | null | Overrides the itemTemplates function used for date formatting. See [examples](#custom-date-formatting) section for more info.
 defaultNotifications | Object | {} | Contains the notification settings. All notifications are rendered inside the messageTemplate.
@@ -42,7 +42,7 @@ eventNameSpace | string | '.vp' | Used to namespace voogPagination's events.
 hashPrefix | string | 'page-' | Change the hash prefix. Only applicable if the urlFormat is set to `'hash'`.
 hashSuffix | string | '' | Change the hash suffix. Only applicable if the urlFormat is set to `'hash'`.
 initClass | string | 'voogPagination-initialized' | Html class attribute added to the pagination wrapper on initialization.
-itemTemplate | function | null | Takes two aguments - item (either article, comment or element object) and dateFormatter (function). Has to return a string. See the [examples](#custom-item-templates) section and the [source](/src/voogPagination.js) for more info.
+itemTemplate | function | null | Takes two aguments - item (either article, comment or element object) and dateFormatter (function). Has to return a string. See the [examples](#custom-item-templates) section and the [source](/src/voogpagination.js) for more info.
 itemWrapper | function | null | Useful for when you don't want to override the entire item template, but just want to wrap every item in some html. See the [examples](#wrapping-paginated-items) section for more info.
 itemType | string | 'article' | Which type of items to paginate, possible values are: `'article'`, `'element'` and `'comment'`.
 messageTemplate | function | null | Used for rendering notifications. See the [examples](#custom-message-templates) section for more info.
@@ -55,7 +55,7 @@ perPage | number | 12 | How many items to display per page.
 queryKey | string | 'page' | Change the query prefix. Only applicable if the `urlFormat` is set to `'singleQueryVar'`.
 queryVars | string | null | Useful for [filtering and sorting](#sorting-and-filtering) paginated items. See [Voog's documentation](https://www.voog.com/developers/api/basics/filters) for all the possible values.
 renderItemsOnFirstFetch | boolean | true | Whether to render the paginated items on initialize. You might want to set this to `false` if you are already rendering the items in your template. See the [examples](#pre-rendering-in-liquid) for more info.
-requestUrlBuilder | function | null | Used to override defaultRequestUrlBuilder. See the [source](/src/voogPagination.js) for more info. 
+requestUrlBuilder | function | null | Used to override defaultRequestUrlBuilder. See the [source](/src/voogpagination.js) for more info. 
 startingPage | number | 1 | Which page to display at start.
 urlFormat | string | 'fullQuery' | In which format to display the query portion of the url. Possible values: `'fullQuery'`, `'singleQueryVar'`, `'hash'`.
 useHistoryPushState | boolean | true | Whether to use browsers history push state api to keep reference of previous queries and enable the browsers back and forward button functionality.

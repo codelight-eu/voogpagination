@@ -7,9 +7,9 @@
  Version: 1.0.0
   Author: Mats-Joonas Kulla
  Website: codelight.eu
-    Docs: https://github.com/codelight-eu/voogPagination
-    Repo: https://github.com/codelight-eu/voogPagination
-  Issues: https://github.com/codelight-eu/voogPagination/issues
+    Docs: https://github.com/codelight-eu/voogpagination
+    Repo: https://github.com/codelight-eu/voogpagination
+  Issues: https://github.com/codelight-eu/voogpagination/issues
 
  */
 
