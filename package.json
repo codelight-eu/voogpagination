@@ -1,0 +1,48 @@
+{
+  "name": "voogpagination",
+  "description": "A jQuery pagination plugin for the Voog CMS",
+  "version": "1.0.0",
+  "author": {
+    "name": "Mats-Joonas Kulla",
+    "email": "mj@codelight.eu",
+    "url": "https://codelight.eu/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codelight-eu/voogPagination"
+  },
+  "bugs": {
+    "url": "https://github.com/codelight-eu/voogPagination/issues",
+    "email": "mj@codelight.eu"
+  },
+  "keywords": [
+    "voog",
+    "voog api",
+    "pagination",
+    "jquery"
+  ],
+  "license": "MIT",
+  "main": "dist/voogpagination.min.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack --progress -p --config webpack.config.js",
+    "rmdist": "rimraf dist",
+    "lint": "eslint src",
+    "test": "yarn run lint"
+  },
+  "engines": {
+    "node": ">= 6.9.4"
+  },
+  "devDependencies": {
+    "webpack": "^3.6.0",
+    "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "dependencies": {
+    "jquery": ">=2.2"
+  }
+}

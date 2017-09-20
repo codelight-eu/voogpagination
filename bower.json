@@ -1,0 +1,30 @@
+{
+  "name": "voogpagination",
+  "main": [
+    "dist/voogpagination.min.js"
+  ],
+  "authors": [
+    "Mats-Joonas Kulla <mj@codelight.eu>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codelight-eu/voogPagination"
+  },
+  "description": "A jQuery pagination plugin for the Voog CMS",
+  "keywords": [
+    "voog",
+    "voog api",
+    "pagination",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "package.json"
+  ],
+  "dependencies": {
+    "jquery": ">=2.2"
+  }
+}
