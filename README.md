@@ -3,7 +3,7 @@ voogPagination is a jQuery-based front-end pagination plugin for the Voog CMS. I
 This plugin is js only, i.e. there are no default themes or CSS styles included.
 
 ## Getting started
-You can either use a package manager or [download the latest release from this GitHub repo](releases/latest).
+You can either use a package manager or [download the latest release from this GitHub repo][zipball].
 
 ```sh
 # Bower
