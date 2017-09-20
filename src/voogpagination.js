@@ -4,7 +4,7 @@
  \/ (_) (_) (_| |  (_| (_| | | | (_|  |_ | (_) | | o | _> 
              _|         _|                          _|    
 
- Version: 1.0.0
+ Version: 1.0.1
   Author: Mats-Joonas Kulla
  Website: codelight.eu
     Docs: https://github.com/codelight-eu/voogpagination
